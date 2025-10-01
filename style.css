@@ -3,7 +3,25 @@ background:lightsteelblue;
 color:aliceblue
 }
 
+/* Select by TAG type */
+p {
+color:rgb(14, 86, 149);
+}
+/* Select by ID name */
+
+#Julia {
+background: rgb(145, 162, 184);
+}
+/* Select by Class name (shaed styles) */
+.uniform {
+  color:rgb(14, 86, 149);
+}
+
 h1 {
-color:aliceblue;
-background: #a0a1a1
+    color:rgb(14, 86, 149);
+    font-weight:600;
+    font-style:oblique;
+    font-size:36px;
+    text-align:center;
+    font-family:stylescript;
 }
