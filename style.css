@@ -6,15 +6,24 @@ color:aliceblue
 /* Select by TAG type */
 p {
 color:rgb(14, 86, 149);
+background: rgb(145, 162, 184);
+border: 3px outset rgb(14, 86, 149);
+padding:19px;
+margin:30px
 }
 /* Select by ID name */
 
 #Julia {
 background: rgb(145, 162, 184);
+border: 3px outset rgb(14, 86, 149);
+padding:10px;
+margin:30px
 }
-/* Select by Class name (shaed styles) */
+
+/* Select by class name (shaed styles) */
 .uniform {
   color:rgb(14, 86, 149);
+  
 }
 
 h1 {
@@ -24,4 +33,26 @@ h1 {
     font-size:36px;
     text-align:center;
     font-family:stylescript;
+   
 }
+/* say width, style, and color of borders*/
+
+/* space around borders=margin, space between border and content=padding*/
+
+ /*<<<<<<<<< this "comments out" a section of code*
+ 
+ *{ border: 3px solid rgb(7, 38, 65)}*/
+
+  .centered {
+text-align: center;
+margin:aut;
+  }
+
+  img { 
+    border-width: 5px;
+    border-style:dotted;
+    border-color:rgb(14, 86, 149);
+
+  }
+
+
